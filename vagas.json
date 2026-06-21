@@ -35,7 +35,7 @@
     "vaga": "Estágio em Hardware",
     "descricao": "Auxílio no desenvolvimento e validação de placas computacionais.",
     "detalhes": "🏢 Sobre a Empresa: A NVIDIA é pioneira em computação de GPU, inteligência artificial e tecnologias para data centers e computação gráfica.\n\n💼 Vaga e Atividades: Auxiliar engenheiros na validação de hardware, testes de protótipos, análise de integridade de sinal e documentação técnica.\n\n🛠️ Requisitos: Conceitos de circuitos digitais e analógicos, familiaridade com ferramentas de CAD (Altium, Eagle) e noções de linguagens de descrição de hardware (VHDL/Verilog).",
-    "local": "Remoto",
+    "local": "São Paulo - SP",
     "bolsa": "R$ 2.400",
     "imagem": "img/EngenhariaComputacao2.png"
   },
@@ -51,11 +51,11 @@
   },
   {
     "curso": "Engenharia de Telecomunicações",
-    "empresa": "Ericsson",
-    "vaga": "Estágio em 5G",
-    "descricao": "Pesquisa e testes em tecnologias de comunicação móvel.",
-    "detalhes": "🏢 Sobre a Empresa: A Ericsson é líder mundial em tecnologia de comunicação, impulsionando a conectividade móvel global.\n\n💼 Vaga e Atividades: Participar da execução de testes laboratoriais de sinal, configuração de antenas inteligentes e análise de dados de tráfego de redes de nova geração.\n\n🛠️ Requisitos: Base teórica forte em RF (Radiofrequência), modulação de sinais, redes móveis (4G/5G) e pacote Office avançado.",
-    "local": "São Paulo - SP",
+    "empresa": "Inatel",
+    "vaga": "Estágio no CIDC",
+    "descricao": "Aplicação em configuração de sites de telecomunicações no time de Wireless ou RadioFrequência.",
+    "detalhes": "🏢 Sobre a Empresa: O Inatel é líder nacional em tecnologia de comunicação, impulsionando a conectividade móvel global. Atuando com clientes nacional e internacional, como Claro, Tim, Vivo e Huawei.\n\n💼 Vaga e Atividades: Participar da execução de configuração/planejamento de sites, configuração de antenas inteligentes e análise de dados de tráfego de redes.\n\n🛠️ Requisitos: Interesse em aprender. Mas, pacote Office, conhecimento de redes, solução de problemas e boa comunicação podem ser diferenciais.",
+    "local": "Santa Rita do Sapucaí - MG",
     "bolsa": "R$ 2.200",
     "imagem": "img/EngenhariaTeleco2.png"
   },

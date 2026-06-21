@@ -60,7 +60,7 @@ function carregarStatus() {
         container.innerHTML = `
             <h2>Nenhuma candidatura ativa</h2>
             <p>Você ainda não se candidatou a nenhuma vaga no momento.</p>
-            <button class="btn-voltar" onclick="window.location.href='index.html'">Ver Vagas</button>
+            <button class="btn-voltar" onclick="window.location.href='vagas.html'">Ver Vagas</button>
         `;
         return;
     }

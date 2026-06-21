@@ -1,0 +1,122 @@
+[
+  {
+    "curso": "Engenharia de Software",
+    "empresa": "Google",
+    "vaga": "Estágio Front-End",
+    "descricao": "Desenvolvimento de interfaces web utilizando HTML, CSS e JavaScript.",
+    "detalhes": "🏢 Sobre a Empresa: O Google é líder global em tecnologia, conhecido por organizar a informação do mundo.\n\n💼 Vaga e Atividades: Auxiliar no desenvolvimento de interfaces de usuário responsivas, colaborando com designers e engenheiros para criar experiências fluidas e acessíveis.\n\n🛠️ Requisitos: Conhecimento sólido em HTML5, CSS3 e JavaScript moderno (ES6+). Familiaridade com frameworks (React, Vue ou Angular) e versionamento com Git é um diferencial.",
+    "local": "Remoto",
+    "bolsa": "R$ 2.100",
+    "imagem": "img/EngenhariaDeSoftware1.png"
+  },
+  {
+    "curso": "Engenharia de Software",
+    "empresa": "Nubank",
+    "vaga": "Estágio Back-End",
+    "descricao": "Desenvolvimento de APIs e integração com banco de dados.",
+    "detalhes": "🏢 Sobre a Empresa: O Nubank é uma das maiores plataformas de serviços financeiros digitais do mundo, focada em desmistificar as finanças.\n\n💼 Vaga e Atividades: Apoiar a criação e manutenção de microsserviços escaláveis, garantindo a segurança e performance das APIs e bancos de dados.\n\n🛠️ Requisitos: Lógica de programação sólida, conhecimento em linguagens como Java, Python, Go, ou Clojure, e conceitos básicos de bancos de dados relacionais e não-relacionais.",
+    "local": "São Paulo - SP",
+    "bolsa": "R$ 2.300",
+    "imagem": "img/EngenhariaDeSoftware2.png"
+  },
+  {
+    "curso": "Engenharia de Computação",
+    "empresa": "Intel",
+    "vaga": "Estágio em Sistemas Embarcados",
+    "descricao": "Programação de microcontroladores e integração de hardware.",
+    "detalhes": "🏢 Sobre a Empresa: A Intel é uma potência global na fabricação de semicondutores e desenvolvimento de arquiteturas computacionais avançadas.\n\n💼 Vaga e Atividades: Atuar no desenvolvimento de firmware de baixo nível, testes de bancada com osciloscópios e integração de software com microcontroladores.\n\n🛠️ Requisitos: Programação em C/C++, leitura de esquemas elétricos básicos e familiaridade com arquiteturas ARM ou AVR.",
+    "local": "Campinas - SP",
+    "bolsa": "R$ 2.000",
+    "imagem": "img/EngenhariaComputacao1.png"
+  },
+  {
+    "curso": "Engenharia de Computação",
+    "empresa": "NVIDIA",
+    "vaga": "Estágio em Hardware",
+    "descricao": "Auxílio no desenvolvimento e validação de placas computacionais.",
+    "detalhes": "🏢 Sobre a Empresa: A NVIDIA é pioneira em computação de GPU, inteligência artificial e tecnologias para data centers e computação gráfica.\n\n💼 Vaga e Atividades: Auxiliar engenheiros na validação de hardware, testes de protótipos, análise de integridade de sinal e documentação técnica.\n\n🛠️ Requisitos: Conceitos de circuitos digitais e analógicos, familiaridade com ferramentas de CAD (Altium, Eagle) e noções de linguagens de descrição de hardware (VHDL/Verilog).",
+    "local": "Remoto",
+    "bolsa": "R$ 2.400",
+    "imagem": "img/EngenhariaComputacao2.png"
+  },
+  {
+    "curso": "Engenharia de Telecomunicações",
+    "empresa": "Claro",
+    "vaga": "Estágio em Redes",
+    "descricao": "Monitoramento e suporte em infraestrutura de telecomunicações.",
+    "detalhes": "🏢 Sobre a Empresa: A Claro é uma das maiores operadoras de telecomunicações da América Latina, oferecendo serviços de telefonia, internet e TV.\n\n💼 Vaga e Atividades: Monitorar alarmes de rede no NOC, auxiliar na triagem de incidentes de conectividade e apoiar equipes de campo.\n\n🛠️ Requisitos: Conhecimento básico em arquitetura de redes (Modelo OSI, TCP/IP, roteamento), boa comunicação e interesse em infraestrutura física de rede.",
+    "local": "Belo Horizonte - MG",
+    "bolsa": "R$ 1.900",
+    "imagem": "img/EngenhariaTeleco1.png"
+  },
+  {
+    "curso": "Engenharia de Telecomunicações",
+    "empresa": "Ericsson",
+    "vaga": "Estágio em 5G",
+    "descricao": "Pesquisa e testes em tecnologias de comunicação móvel.",
+    "detalhes": "🏢 Sobre a Empresa: A Ericsson é líder mundial em tecnologia de comunicação, impulsionando a conectividade móvel global.\n\n💼 Vaga e Atividades: Participar da execução de testes laboratoriais de sinal, configuração de antenas inteligentes e análise de dados de tráfego de redes de nova geração.\n\n🛠️ Requisitos: Base teórica forte em RF (Radiofrequência), modulação de sinais, redes móveis (4G/5G) e pacote Office avançado.",
+    "local": "São Paulo - SP",
+    "bolsa": "R$ 2.200",
+    "imagem": "img/EngenhariaTeleco2.png"
+  },
+  {
+    "curso": "Engenharia de Produção",
+    "empresa": "Ambev",
+    "vaga": "Estágio em Processos",
+    "descricao": "Análise de produtividade e melhoria contínua de processos.",
+    "detalhes": "🏢 Sobre a Empresa: A Ambev é uma das maiores empresas de bens de consumo do mundo, famosa por suas marcas líderes de bebidas.\n\n💼 Vaga e Atividades: Mapear fluxos de trabalho na linha de produção, identificar gargalos através de indicadores (KPIs) e Tensor de otimização.\n\n🛠️ Requisitos: Raciocínio lógico, conhecimento em metodologias Lean, Six Sigma ou PDCA, e nível intermediário de Excel.",
+    "local": "Extrema - MG",
+    "bolsa": "R$ 1.800",
+    "imagem": "img/EngenhariaProducao1.png"
+  },
+  {
+    "curso": "Engenharia de Produção",
+    "empresa": "Vale",
+    "vaga": "Estágio em Logística",
+    "descricao": "Controle operacional e otimização da cadeia logística.",
+    "detalhes": "🏢 Sobre a Empresa: A Vale é uma das maiores mineradoras do mundo, com uma complexa malha logística ferroviária e portuária.\n\n💼 Vaga e Atividades: Auxiliar no planejamento de fretes, controle de estoques e acompanhamento de fluxo de materiais e minérios.\n\n🛠️ Requisitos: Organização extrema, habilidade para lidar com dados de transporte e cadeia de suprimentos (Supply Chain), Excel Avançado.",
+    "local": "Itabira - MG",
+    "bolsa": "R$ 2.100",
+    "imagem": "img/EngenhariaProducao2.png"
+  },
+  {
+    "curso": "Engenharia de Automação",
+    "empresa": "Siemens",
+    "vaga": "Estágio em Automação Industrial",
+    "descricao": "Programação de CLPs e supervisórios industriais.",
+    "detalhes": "🏢 Sobre a Empresa: A Siemens é um conglomerado global focado em eletrificação, automação e digitalização da indústria.\n\n💼 Vaga e Atividades: Apoiar o desenvolvimento e teste de lógicas para Controladores Lógicos Programáveis (CLPs) e design de telas de sistemas supervisórios (SCADA).\n\n🛠️ Requisitos: Conhecimento prático em linguagens de programação industrial (Ladder, Texto Estruturado) e conceitos de redes industriais (Profibus, Profinet).",
+    "local": "Jundiaí - SP",
+    "bolsa": "R$ 2.200",
+    "imagem": "img/EngenhariaAutomacao1.png"
+  },
+  {
+    "curso": "Engenharia de Automação",
+    "empresa": "WEG",
+    "vaga": "Estágio em Controle Industrial",
+    "descricao": "Desenvolvimento de sistemas de controle e automação.",
+    "detalhes": "🏢 Sobre a Empresa: A WEG é uma das maiores fabricantes globais de equipamentos eletroeletrônicos e motores elétricos.\n\n💼 Vaga e Atividades: Atuar no laboratório de ensaios, testando painéis de comando e participando da sintonia de malhas de controle de processos.\n\n🛠️ Requisitos: Noções básicas de instrumentação industrial, teoria de controle clássico (sistemas PID) e interesse no segmento de acionamentos elétricos (inversores de frequência).",
+    "local": "Jaraguá do Sul - SC",
+    "bolsa": "R$ 1.950",
+    "imagem": "img/EngenhariaAutomacao2.png"
+  },
+  {
+    "curso": "Engenharia Elétrica",
+    "empresa": "Schneider Electric",
+    "vaga": "Estágio em Projetos Elétricos",
+    "descricao": "Auxílio em diagramas elétricos e dimensionamento de sistemas.",
+    "detalhes": "🏢 Sobre a Empresa: A Schneider Electric é especialista global em gestão de energia e automação residencial, predial e industrial.\n\n💼 Vaga e Atividades: Auxiliar no desenho técnico de painéis de distribuição e no dimensionamento de cabos, disjuntores e transformadores seguindo normas vigentes.\n\n🛠️ Requisitos: Domínio básico de AutoCAD, leitura de diagramas unifilares e conhecimento teórico das normas regulamentadoras (como a NR-10 e NBR 5410).",
+    "local": "São Paulo - SP",
+    "bolsa": "R$ 2.000",
+    "imagem": "img/EngenhariaEletrica1.png"
+  },
+  {
+    "curso": "Engenharia Elétrica",
+    "empresa": "Eletrobras",
+    "vaga": "Estágio em Sistemas de Energia",
+    "descricao": "Monitoramento e análise de redes de distribuição elétrica.",
+    "detalhes": "🏢 Sobre a Empresa: A Eletrobras é a maior empresa do setor de geração e transmissão de energia elétrica da América Latina.\n\n💼 Vaga e Atividades: Apoiar no monitoramento de fluxo de carga, análise de perdas em subestações e geração de relatórios de conformidade e estabilidade do sistema.\n\n🛠️ Requisitos: Noções de sistemas elétricos de potência (SEP), máquinas elétricas e interesse em energias renováveis e sustentabilidade.",
+    "local": "Rio de Janeiro - RJ",
+    "bolsa": "R$ 2.100",
+    "imagem": "img/EngenhariaEletrica2.png"
+  }
+]

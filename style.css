@@ -1,0 +1,790 @@
+:root {
+  --cor-click: #126ae2; /* Click */
+  --cor-sombra: #0a599b; /* Azul Escuro */
+  --cor-text: black; /* Preto */
+  --cor-back1: #edf2f4; /* Azul claro */
+  --cor-back2: #6a937a; /* Verde Escuro */
+  
+  --md-sys-color-primary: #126ae2;
+  --md-sys-color-on-primary: #FFFFFF;
+  --md-sys-color-primary-container: #edf2f4;
+  --md-sys-color-on-primary-container: #002020;
+  
+  --frequencia: #126ae2;
+  --nota: #126ae2;
+  --prova: #126ae2;
+  
+  
+}
+
+body {
+  margin: 0px;
+  background-color: var(--cor-back1);
+}
+
+@import url(https://fonts.googleapis.com/css?family=Arimo);
+
+header {
+  position: relative;
+  height: 35px;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+#menu {
+  position: absolute;
+  left: 0px;
+  top: 10px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+#logo {
+  position: absolute;
+  top: 13px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.svg_logo{
+  width: 80px;
+}
+
+.path_logo{
+  fill: var(--cor-click);
+}
+
+#perfil {
+  position: absolute;
+  right: 0px;
+  top: 10px;
+  margin-right: 15px;
+}
+
+#mensagens {
+  position: relative;
+  background-color: white;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  padding: 15px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#user_name {
+  display: block;
+  font-size: 17pt;
+}
+
+#mns_box {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  margin-top:5px;
+}
+
+#icon {
+  width: 18px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 5px;
+}
+
+#mns {
+  padding: 5px;
+  width: 80%;
+  display: inline-block;
+}
+
+.material-symbols-outlined {
+  color: var(--cor-click);
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.icoG {
+  font-size: 30px;
+}
+
+.icoP {
+  font-size: 18px;
+}
+
+.font {
+  font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 11px;
+  color: var(--cor-text)
+}
+
+#menu_aba {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+  z-index: 1;
+  display: none;
+}
+
+#menu_bot {
+  position: relative;
+  padding: 20px;
+  display: block;
+  cursor: pointer;
+  font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14pt;
+  color: var(--cor-click);
+  transition: 0.5s;
+}
+
+#componente {
+  position: relative;
+  background-color: white;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  padding: 15px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+h3 {
+  font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+  color: var(--cor-text);
+  padding-left: 5px;
+  padding-right: 5px
+}
+
+p {
+  font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 11px;
+  color: var(--cor-text);
+  line-height: 1.5;
+  orphans: 3;
+  padding-left: 5px;
+  padding-right: 5px
+}
+
+.carousel-container {
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.card {
+    min-width: 100%;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.info {
+    padding: 10px
+}
+
+.icon {
+    font-size: 15px;
+    margin-left: 5px;
+    margin-right: 2px;
+    width: 18px;
+    display: inline-block;
+    vertical-align: middle
+}
+
+#prevBtn,
+#nextBtn {
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+#prevBtn { left: 10px; }
+#nextBtn { right: 10px; }
+
+
+.comp-aula {
+  position: relative;
+  background-color: white;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  padding: 15px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.titulo_aula {
+  font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 15px;
+  color: var(--cor-text);
+  padding-left: 5px;
+  padding-right: 5px;
+  
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.lables {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lable-prova {
+  background-color: var(--prova);
+  padding: 7px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: 10px;
+  border-radius: 500px;
+  text-align: center
+}
+
+.lable-frequencia {
+  background-color: var(--frequencia);
+  padding: 7px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: 10px;
+  border-radius: 500px;
+}
+
+.lable-nota {
+  background-color: var(--prova);
+  padding: 7px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: 10px;
+  border-radius: 500px;
+}
+
+.p_lable {
+  font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 11px;
+  color: white;
+  
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.botaoVoltar{
+  width: 50px;
+  border-radius: 16px;
+}
+
+/* 
+=-=-=-=-=-=-=-=- Sobre a estilização da página de vagas =-=-=-=-=-=-=-=-
+*/
+
+#container-vagas {
+    padding: 15px;
+}
+
+.card-vaga {
+    background-color: white;
+    border-radius: 10px;
+    padding: 12px;
+    margin-bottom: 20px;
+
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+}
+
+.card-vaga img {
+    width: 100%;
+    height: 180px;
+
+    object-fit: cover;
+
+    border-radius: 10px;
+}
+
+/* Nome da vaga */
+
+.card-vaga h3 {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.card-vaga p{
+  font-size: 14px;
+}
+
+.card-vaga .descricao {
+    background-color: #f1f1f1;
+    padding: 12px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.card-vaga .empresa {
+    font-weight: bold;
+}
+
+.card-vaga .info {
+    margin-top: 5px;
+}
+
+.botoes-vaga {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.btn-detalhes {
+    border: none;
+    background-color: #d9d9d9;
+    padding: 8px 30px;
+    font-size: 14px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn-candidatar {
+    border: none;
+    background-color: var(--cor-click);
+    color: white;
+    padding: 8px 15px;
+    font-size: 14px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* 
+=-=-=-=-=-=-=-=- Sobre a estilização do pop up de janela de candidatar-se =-=-=-=-=-=-=-=-
+*/
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-conteudo {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 500px;
+  position: relative;
+}
+
+.fechar {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  font-size: 25px;
+  cursor: pointer;
+}   
+
+
+#filtros {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px 0;
+}
+
+#filtros label {
+    color: var(--cor-click);
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+
+#filtroCurso {
+    width: 320px;
+    max-width: 90%;
+    padding: 12px 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 12px;
+    background: white;
+    color: #333;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#filtroCurso:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+}
+
+#filtroCurso:focus {
+    outline: none;
+    border: 2px solid var(--cor-click);
+    box-shadow: 0 0 10px var(--cor-click);
+}
+
+
+
+.modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    z-index: 1000;
+}
+
+.modal-conteudo {
+    background: white;
+    width: 90%;
+    max-width: 500px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+    position: relative;
+    animation: aparecer .3s ease;
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.modal-conteudo h2 {
+    color: var(--cor-click);
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.fechar-candidatura,
+.fechar {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    font-size: 28px;
+    cursor: pointer;
+    color: #666;
+    transition: .3s;
+}
+
+.fechar-candidatura:hover,
+.fechar:hover {
+    color: crimson;
+    transform: rotate(90deg);
+}
+
+#curriculo {
+    width: 94%;
+    padding: 12px;
+    border: 2px dashed var(--cor-click);
+    border-radius: 12px;
+    background: #f8f8f8;
+    cursor: pointer;
+}
+
+#btnEnviarCurriculo {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 12px;
+    background: var(--cor-click);
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#btnEnviarCurriculo:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,.25);
+}
+
+#textoDetalhes {
+    white-space: pre-line;
+    line-height: 1.7;
+}
+/* 
+=-=-=-=-=-=-=-=- Sobre a estilização do pop up de apos se candidatar =-=-=-=-=-=-=-=-
+*/
+
+
+/*  MODAL QUANDO IMPORTA CORRETAMENTE
+*/
+.modal-sucesso {
+    background: white;
+    width: 350px;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    animation: aparecer .3s ease;
+    box-shadow: 0 15px 40px rgba(0,0,0,.3);
+}
+
+.icone-sucesso {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 15px;
+    border-radius: 50%;
+    background: #4CAF50;
+    color: white;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-sucesso h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.modal-sucesso p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.modal-sucesso button {
+    background: var(--cor-click);
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.modal-sucesso button:hover {
+    transform: translateY(-2px);
+}
+
+/*  MODAL QUANDO IMPORTA ERRONEAMENTE
+*/
+
+.modal-erro {
+    background: white;
+    width: 350px;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.icone-erro {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 15px;
+    border-radius: 50%;
+    background: #e53935;
+    color: white;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-erro button {
+    background: #e53935;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+/* Container que envolve todos os cards */
+#container-vagas {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 24px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* O Card individual */
+.card-vaga {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card-vaga:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+/* Imagem de topo do card */
+.card-vaga img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+/* Título do cargo/vaga */
+.card-vaga h3 {
+    font-size: 1.2rem;
+    margin: 16px 16px 8px 16px;
+    color: var(--cor-text);
+}
+
+/* Corpo do texto interno */
+.card-vaga .descricao {
+    padding: 0 16px 16px 16px;
+    flex-grow: 1; /* Garante que os botões fiquem alinhados embaixo mesmo com textos de tamanhos diferentes */
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card-vaga .empresa {
+    font-weight: bold;
+    color: var(--md-sys-color-primary);
+    margin: 0;
+}
+
+.card-vaga .descricao p {
+    margin: 0;
+    font-size: 0.95rem;
+    color: #555;
+}
+
+/* Área dos botões */
+.card-vaga .botoes-vaga {
+    display: flex;
+    gap: 12px;
+    padding: 16px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #eee;
+}
+
+/* Estilização básica dos botões */
+.card-vaga .botoes-vaga button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.btn-detalhes {
+    background-color: #e0e0e0;
+    color: #333;
+}
+
+.btn-detalhes:hover {
+    background-color: #d5d5d5;
+}
+
+.btn-candidatar {
+    background-color: var(--md-sys-color-primary);
+    color: white;
+}
+
+.btn-candidatar:hover {
+    background-color: var(--cor-click);
+}
+
+.container-status {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.status-badge {
+    display: inline-block;
+    background-color: #fef3c7;
+    color: #d97706;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: 0.95rem;
+}
+.btn-voltar {
+    margin-top: 25px;
+    padding: 10px 20px;
+    background-color: var(--md-sys-color-primary, #38184C);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}

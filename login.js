@@ -31,10 +31,6 @@ document.getElementById("loginForm").addEventListener("submit", async function(e
         mensagem.textContent = "Login realizado com sucesso!";
         window.location.href = "index.html";
 
-
-        // Redirecionar para outra página
-        // window.location.href = "home.html";
-
     } catch(erro){
 
         mensagem.style.color = "white";

@@ -1,11 +1,12 @@
 function openMenu() {
-  document.getElementById("menu_aba").style.display = "block"; 
+    document.getElementById("menu_aba").classList.add("open");
+    document.getElementById("menu_overlay").style.display = "block";
 }
 
 function closeMenu() {
-  document.getElementById("menu_aba").style.display = "none";    
+    document.getElementById("menu_aba").classList.remove("open");
+    document.getElementById("menu_overlay").style.display = "none";
 }
-
 //Função que leva o usuario para a pagina principal
 function voltarPaginaPrincipal(){
   window.location.href = "index.html";
@@ -13,6 +14,10 @@ function voltarPaginaPrincipal(){
 
 function goToVagas(){
     window.location.href = "vagas.html"
+}
+
+function goToVagasAplicadas(){
+    window.location.href = "status.html"
 }
 
 

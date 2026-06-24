@@ -13,14 +13,47 @@
 <body>
 
 
-    <div id="menu_aba">
-        <div id="menu_bot" onclick="closeMenu(), temaInatel()">Tema Inatel</div>
-        <div id="menu_bot" onclick="closeMenu(), temaLim()">Tema Limão</div>
-        <div id="menu_bot" onclick="closeMenu(), temaDark()">Tema Dark</div>
-        <div id="menu_bot" class="botaoVoltar" onclick="voltarPaginaPrincipal()"> Voltar </div>
-        <div id="menu_bot" onclick="closeMenu(), goToVagasAplicadas()"> Vagas Aplicadas </div>
+    <div id="menu_overlay" onclick="closeMenu()"></div>
 
+<div id="menu_aba">
+    <div class="menu_header">
+        <div class="avatar">R</div>
+        <div>
+            <h3>Raphael</h3>
+            <p>Aluno Inatel</p>
+        </div>
     </div>
+
+    <div class="menu_item" onclick="temaInatel()">
+        <span class="material-symbols-outlined">palette</span>
+        Tema Inatel
+    </div>
+
+    <div class="menu_item" onclick="temaLim()">
+        <span class="material-symbols-outlined">eco</span>
+        Tema Limão
+    </div>
+
+    <div class="menu_item" onclick="temaDark()">
+        <span class="material-symbols-outlined">dark_mode</span>
+        Tema Dark
+    </div>
+
+    <div class="menu_item" onclick="voltarPaginaPrincipal()">
+        <span class="material-symbols-outlined">home</span>
+        Início
+    </div>
+
+    <div class="menu_item" onclick="goToVagas()">
+        <span class="material-symbols-outlined">work</span>
+        Vagas
+    </div>
+
+    <div class="menu_item" onclick="goToVagasAplicadas()">
+        <span class="material-symbols-outlined">pending_actions</span>
+        Vagas Aplicadas    
+    </div>
+</div>
 
     <header id="head">   
         <div id="menu" onclick="openMenu()"><span class="material-symbols-outlined icoG">

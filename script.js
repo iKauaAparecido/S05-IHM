@@ -1,9 +1,11 @@
 function openMenu() {
-  document.getElementById("menu_aba").style.display = "block"; 
+    document.getElementById("menu_aba").classList.add("open");
+    document.getElementById("menu_overlay").style.display = "block";
 }
 
 function closeMenu() {
-  document.getElementById("menu_aba").style.display = "none";    
+    document.getElementById("menu_aba").classList.remove("open");
+    document.getElementById("menu_overlay").style.display = "none";
 }
 
 function temaLim() {
@@ -284,7 +286,11 @@ function reservarArmario() {
     `Data de entrega: ${armarioEmprestado.dataEntrega}`;
 }
 
-//Função que leva o usuario para a pagina de vagas
+//Função que leva o usuario para as devidas páginas
+function voltarPaginaPrincipal(){
+  window.location.href = "index.html";
+}
+
 function goToVagas(){
   window.location.href = "vagas.html"; 
 }

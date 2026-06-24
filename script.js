@@ -41,6 +41,8 @@ function temaDark() {
     }
 }
 
+
+
 const eventos = [
     {
         id: 1,
@@ -222,69 +224,6 @@ class AulasComponent extends HTMLElement {
 }
 customElements.define('aulas-component', AulasComponent);
 
-// RESERVA ARMÁRIO
-const usuario = { nome: "Raphael", matricula: "123456", pendencia: false, acessibilidade: true };
-
-const armarios = [
-  { id: 1, formato: "padrao", status: true, acessivel: false },
-  { id: 2, formato: "padrao", status: true, acessivel: false },
-  { id: 3, formato: "padrao", status: true, acessivel: false },
-  { id: 4, formato: "padrao", status: false, acessivel: true },
-  { id: 5, formato: "padrao", status: false, acessivel: true },
-  { id: 6, formato: "duplo", status: true, acessivel: true },
-  { id: 7, formato: "duplo", status: false, acessivel: true },
-  { id: 8, formato: "duplo", status: false, acessivel: true },  
-];
-
-let tipoSelecionado = null;
-
-document.querySelectorAll('.tipo').forEach(div => {
-  div.addEventListener('click', () => {
-    document.querySelectorAll('.tipo').forEach(d => d.classList.remove('selected'));
-    div.classList.add('selected');
-    tipoSelecionado = div.dataset.value;
-  });
-});
-
-function reservarArmario() {
-  const resultado = document.getElementById("resultado");
-  const armarioNumero = document.getElementById("armarioNumero");
-
-  if (!tipoSelecionado) {
-    resultado.innerText = "Por favor, selecione um tipo de armário antes de reservar.";
-    armarioNumero.style.display = "none";
-    return;
-  }
-
-  let armariosDisponiveis = armarios.filter(a => 
-    a.formato === tipoSelecionado && a.status === true && usuario.acessibilidade === a.acessivel
-  );
-
-  if (armariosDisponiveis.length === 0) {
-    resultado.innerText = `Olá, ${usuario.nome}! Nenhum armário disponível para o tipo selecionado.`;
-    armarioNumero.style.display = "none";
-    return;
-  }
-
-  let armarioSorteado = armariosDisponiveis[Math.floor(Math.random() * armariosDisponiveis.length)];
-  let armarioEmprestado = armarios.find(armario => armario.id === armarioSorteado.id);
-  armarioEmprestado.status = false;
-
-  let dataReserva = new Date();
-  armarioEmprestado.dataReserva = dataReserva.toLocaleString("pt-BR");
-
-  let dataEntrega = new Date(dataReserva.getTime() + 24 * 60 * 60 * 1000);
-  armarioEmprestado.dataEntrega = dataEntrega.toLocaleString("pt-BR");
-
-  usuario.pendencia = true;
-
-  armarioNumero.innerText = `Armário Nº ${armarioEmprestado.id}`;
-  armarioNumero.style.display = "block";
-
-  resultado.innerText = 
-    `Data da reserva: ${armarioEmprestado.dataReserva}\n` +
-    `Data de entrega: ${armarioEmprestado.dataEntrega}`;
-}
 
 //Função que leva o usuario para as devidas páginas
 function voltarPaginaPrincipal(){
@@ -298,3 +237,22 @@ function goToVagas(){
 function goToVagasAplicadas(){
   window.location.href = "status.html";
 }
+
+
+document.addEventListener("DOMContentLoaded", () => {
+
+    const usuario = JSON.parse(
+        localStorage.getItem("usuarioLogado")
+    );
+
+    if(usuario){
+
+        document.getElementById("nomeAluno").textContent =
+            usuario.nome;
+
+        document.getElementById("avatarLetra").textContent =
+            usuario.nome.charAt(0).toUpperCase();
+
+    }
+
+});

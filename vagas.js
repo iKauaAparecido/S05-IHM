@@ -288,3 +288,21 @@ document.getElementById("btnEnviarCurriculo").addEventListener("click", () => {
     fecharCandidatura();
     mostrarSucesso();
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+
+    const usuario = JSON.parse(
+        localStorage.getItem("usuarioLogado")
+    );
+
+    if(usuario){
+
+        document.getElementById("nomeAluno").textContent =
+            usuario.nome;
+
+        document.getElementById("avatarLetra").textContent =
+            usuario.nome.charAt(0).toUpperCase();
+
+    }
+
+});

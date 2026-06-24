@@ -2,15 +2,28 @@
     "usuarios": [
         {
             "usuario": "admin",
-            "senha": "123456"
+            "senha": "123456",
+            "email": "admin@ges.inatel.br",
+            "nome": "admin",
+            "teste": "Administrador do Sistema Inatel",
+            "curso": "Engenharia de Tudo"
         },
         {
             "usuario": "123456",
-            "senha": "ProfessorRaphael"
+            "senha": "ProfessorRaphael",
+            "email": "raphael.cardoso@ges.inatel.br",
+            "nome": "Raphael Cardoso",
+            "teste": "Professor Inatel",
+            "curso": "Engenharia de Software"
+
         },
         {
             "usuario": "kalyne",
-            "senha": "euteamo"
+            "senha": "euteamo",
+            "email": "kalyne@univas.br",
+            "nome": "Kalyne",
+            "teste": "Aluna Univas",
+            "curso":"Engenharia de Psicologia"
         }
     ]
 }

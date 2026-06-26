@@ -4,8 +4,8 @@
             "usuario": "admin",
             "senha": "123456",
             "email": "admin@ges.inatel.br",
-            "nome": "admin",
-            "descricao": "Administrador do Sistema Inatel",
+            "nome": "Admin",
+            "descricao": "Administrador",
             "curso": "Engenharia de Tudo"
         },
         {
@@ -29,7 +29,7 @@
             "usuario": "345",
             "senha": "123456",
             "email": "kaua@ges.inatel.br",
-            "nome": "Kaua",
+            "nome": "Kauã",
             "descricao": "Aluno Inatel",
             "curso": "Engenharia de Software"
         }

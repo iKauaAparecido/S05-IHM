@@ -35,7 +35,7 @@ document.getElementById("loginForm").addEventListener("submit", async function(e
 
         const usuarioLogado = {
                 nome: usuarioEncontrado.nome,
-                funcaoUsuario: usuarioEncontrado.teste
+                descricao: usuarioEncontrado.descricao
             };
 
             localStorage.setItem(

@@ -124,6 +124,8 @@ document.addEventListener("DOMContentLoaded", () => {
         localStorage.getItem("usuarioLogado")
     );
 
+    console.log("Usuario:", usuario);
+
     if(usuario){
 
         document.getElementById("nomeAluno").textContent =
@@ -132,10 +134,11 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById("avatarLetra").textContent =
             usuario.nome.charAt(0).toUpperCase();
 
-        document.getElementById("funcaoDoUsuario").textContent =
-            usuario.teste;
-    }
+        document.getElementById("descricaoDoUsuario").textContent =
+            usuario.descricao;
 
+        console.log("Descrição:", usuario.descricao);
+    }
 });
 
 carregarStatus();

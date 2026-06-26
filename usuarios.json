@@ -5,7 +5,7 @@
             "senha": "123456",
             "email": "admin@ges.inatel.br",
             "nome": "admin",
-            "teste": "Administrador do Sistema Inatel",
+            "descricao": "Administrador do Sistema Inatel",
             "curso": "Engenharia de Tudo"
         },
         {
@@ -13,7 +13,7 @@
             "senha": "ProfessorRaphael",
             "email": "raphael.cardoso@ges.inatel.br",
             "nome": "Raphael Cardoso",
-            "teste": "Professor Inatel",
+            "descricao": "Professor Inatel",
             "curso": "Engenharia de Software"
 
         },
@@ -22,8 +22,16 @@
             "senha": "euteamo",
             "email": "kalyne@univas.br",
             "nome": "Kalyne",
-            "teste": "Aluna Univas",
-            "curso":"Engenharia de Psicologia"
+            "descricao": "Aluna Univas",
+            "curso":"Engenharia de Produação"
+        },
+        {
+            "usuario": "345",
+            "senha": "123456",
+            "email": "kaua@ges.inatel.br",
+            "nome": "Kaua",
+            "descricao": "Aluno Inatel",
+            "curso": "Engenharia de Software"
         }
     ]
 }

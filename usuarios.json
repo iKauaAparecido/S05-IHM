@@ -6,7 +6,8 @@
             "email": "admin@ges.inatel.br",
             "nome": "Admin",
             "descricao": "Administrador",
-            "curso": "Engenharia de Tudo"
+            "curso": "Engenharia de Tudo",
+            "funcao": "admin"
         },
         {
             "usuario": "123456",
@@ -14,8 +15,8 @@
             "email": "raphael.cardoso@ges.inatel.br",
             "nome": "Raphael Cardoso",
             "descricao": "Professor Inatel",
-            "curso": "Engenharia de Software"
-
+            "curso": "Engenharia de Software",
+            "funcao": "professor"
         },
         {
             "usuario": "kalyne",
@@ -23,7 +24,8 @@
             "email": "kalyne@univas.br",
             "nome": "Kalyne",
             "descricao": "Aluna Univas",
-            "curso":"Engenharia de Produação"
+            "curso":"Engenharia de Produação",
+            "funcao": "aluno"
         },
         {
             "usuario": "345",
@@ -31,7 +33,16 @@
             "email": "kaua@ges.inatel.br",
             "nome": "Kauã",
             "descricao": "Aluno Inatel",
-            "curso": "Engenharia de Software"
+            "curso": "Engenharia de Software",
+            "funcao": "aluno"
+        },
+        {
+            "usuario": "Inatel",
+            "senha": "inatel123",
+            "email": "inatel@inatel.br",
+            "nome": "Inatel",
+            "descricao": "Inatel",
+            "funcao": "empresa"
         }
     ]
 }

@@ -20,6 +20,9 @@ function goToVagasAplicadas(){
     window.location.href = "status.html"
 }
 
+function deslogar(){
+  window.location.href = "login.html";
+}
 
 function temaLim() {
     document.documentElement.style.setProperty('--cor-click', '#38184C');

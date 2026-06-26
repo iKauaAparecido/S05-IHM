@@ -41,7 +41,22 @@ function temaDark() {
     }
 }
 
+//Função que leva o usuario para as devidas páginas
+function voltarPaginaPrincipal(){
+  window.location.href = "index.html";
+}
 
+function goToVagas(){
+  window.location.href = "vagas.html"; 
+}
+
+function goToVagasAplicadas(){
+  window.location.href = "status.html";
+}
+
+function deslogar(){
+  window.location.href = "login.html";
+}
 
 const eventos = [
     {
@@ -225,18 +240,7 @@ class AulasComponent extends HTMLElement {
 customElements.define('aulas-component', AulasComponent);
 
 
-//Função que leva o usuario para as devidas páginas
-function voltarPaginaPrincipal(){
-  window.location.href = "index.html";
-}
 
-function goToVagas(){
-  window.location.href = "vagas.html"; 
-}
-
-function goToVagasAplicadas(){
-  window.location.href = "status.html";
-}
 
 
 document.addEventListener("DOMContentLoaded", () => {

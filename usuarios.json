@@ -6,7 +6,7 @@
             "email": "admin@ges.inatel.br",
             "nome": "Admin",
             "descricao": "Administrador",
-            "curso": "Engenharia de Tudo",
+            "curso": "Todos os cursos",
             "funcao": "admin"
         },
         {
@@ -24,7 +24,7 @@
             "email": "kalyne@univas.br",
             "nome": "Kalyne",
             "descricao": "Aluna Univas",
-            "curso":"Engenharia de Produação",
+            "curso":"Engenharia de Produção",
             "funcao": "aluno"
         },
         {

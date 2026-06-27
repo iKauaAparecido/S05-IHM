@@ -43,21 +43,6 @@ input:focus{
     outline: 2px solid #ffffff;
 }
 
-button{
-    padding: 14px;
-    border: none;
-    border-radius: 8px;
-    background-color: #0d47a1;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-button:hover{
-    background-color: #08306b;
-}
-
 #mensagem{
     min-height: 20px;
     text-align: center;
@@ -122,4 +107,75 @@ button:hover{
 .info-container:hover .tooltip{
     opacity: 1;
     visibility: visible;
+}
+
+#filtros {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px 0;
+}
+
+#filtros label {
+    color: var(--cor-click);
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+
+#filtroCurso{
+    width: 320px;
+    max-width: 90%;
+    padding: 12px 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 12px;
+    background: white;
+    color: #333;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#loginForm input{
+    margin-left: 18px;
+    width: 320px;
+    max-width: 90%;
+    padding: 12px 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 12px;
+    background: white;
+    color: #333;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#loginForm button{
+    margin-left: 18px;
+    width: 320px;
+    max-width: 90%;
+    padding: 12px 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 12px;
+    background: #08306b;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#filtroCurso:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+}
+
+#filtroCurso:focus {
+    outline: none;
+    border: 2px solid var(--cor-click);
+    box-shadow: 0 0 10px var(--cor-click);
 }

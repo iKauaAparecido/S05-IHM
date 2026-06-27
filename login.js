@@ -5,6 +5,7 @@ document.getElementById("loginForm").addEventListener("submit", async function(e
     const usuarioDigitado = document.getElementById("usuario").value;
     const senhaDigitada = document.getElementById("senha").value;
     const mensagem = document.getElementById("mensagem");
+    const usuarioCurso = document.getElementById("filtroCurso").value;
 
  
 
@@ -29,6 +30,15 @@ document.getElementById("loginForm").addEventListener("submit", async function(e
             mensagem.textContent = "Senha incorreta.";
             return;
         }
+
+        if(usuarioEncontrado.funcao === "aluno"){
+            if(usuarioEncontrado.curso !== usuarioCurso){
+            mensagem.style.color = "#ff4d4d";
+            mensagem.textContent = "Usuário não pertence à esse curso."
+            return;
+        }
+        }
+        
 
         mensagem.style.color = "#7CFC00";
         mensagem.textContent = "Login realizado com sucesso!";

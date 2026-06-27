@@ -25,11 +25,13 @@ body {
 @import url(https://fonts.googleapis.com/css?family=Arimo);
 
 header {
-  position: relative;
-  height: 35px;
+  position: sticky;
+  height: 40px;
   top: 0px;
   left: 0px;
   right: 0px;
+  z-index: 9;
+  background-color: var(--cor-back1);
 }
 
 #menu {
@@ -38,6 +40,11 @@ header {
   top: 10px;
   margin-left: 15px;
   cursor: pointer;
+}
+
+#menu:hover{
+    scale: 1.3;
+    transition: .3s ease;
 }
 
 #logo {

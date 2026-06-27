@@ -313,4 +313,5 @@ document.addEventListener("DOMContentLoaded", () => {
 
         console.log("Descrição:", usuario.descricao);
     }
+    
 });

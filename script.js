@@ -262,6 +262,9 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById("descricaoDoUsuario").textContent =
             usuario.descricao;
 
+        document.getElementById("user_name").innerHTML =
+            `<b> Olá ${usuario.nome}!</b>`;
+
         console.log("Descrição:", usuario.descricao);
     }
 });
